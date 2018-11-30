@@ -1,0 +1,213 @@
+{
+  "id": "78e8c541-95f5-4915-87db-80ccf24cbf65",
+  "version": "1.1",
+  "name": "Barabcev Python",
+  "url": "https://www.homegoods.com",
+  "tests": [{
+    "id": "6c70a954-196f-4add-aab1-af314cc12195",
+    "name": "Test 1",
+    "commands": [{
+      "id": "97197ba3-3181-40ea-ac71-ce5676aef023",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0984f4ed-c4f1-4770-ae0d-650399530a5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07218131-331d-426e-9bd1-f00fc94f7533",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first_name", "name"],
+        ["css=#first-name", "css"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3c6bf1f-0662-422b-bb61-38606211046e",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first_name", "name"],
+        ["css=#first-name", "css"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Yevhen"
+    }, {
+      "id": "ca1db0b4-bd1c-41ea-81ec-25b58df6c8d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=zip", "name"],
+        ["css=#zip", "css"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be08a11a-dff2-4d23-accd-e02d577c5452",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=zip", "name"],
+        ["css=#zip", "css"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "60634"
+    }, {
+      "id": "8855cf71-cd20-4864-9ca4-a759aa354271",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f5ae6d-182b-4750-a951-de67c3509780",
+      "comment": "",
+      "command": "click",
+      "target": "id=hg_home_email_tile",
+      "targets": [
+        ["id=hg_home_email_tile", "id"],
+        ["name=submit", "name"],
+        ["css=#hg_home_email_tile", "css"],
+        ["css=#hg_home_email_tile", "css:finder"],
+        ["xpath=//button[@id='hg_home_email_tile']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21496d0-d6b4-4748-b69d-f97586c9299f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19dbc89e-f075-40e6-b7e6-2ed9813603de",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "yhnjhjss@yahoo.com"
+    }, {
+      "id": "bc6382ae-5a38-4312-9da0-aa807dcb6221",
+      "comment": "",
+      "command": "click",
+      "target": "id=hg_home_email_tile",
+      "targets": [
+        ["id=hg_home_email_tile", "id"],
+        ["name=submit", "name"],
+        ["css=#hg_home_email_tile", "css"],
+        ["css=#hg_home_email_tile", "css:finder"],
+        ["xpath=//button[@id='hg_home_email_tile']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6b7473-c665-45d4-8787-868e70f4a48f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7b845f-7bca-46b5-a9e1-b4905bb77c03",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='email_signup_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "@yahoo.com"
+    }, {
+      "id": "5b5f7f52-e7d4-4410-8ddd-8ade746ba663",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-signup",
+      "targets": [
+        ["id=email-signup", "id"],
+        ["css=#email-signup", "css"],
+        ["css=#email-signup", "css:finder"],
+        ["xpath=//div[@id='email-signup']", "xpath:attributes"],
+        ["xpath=//section[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "569dcc03-055b-4668-bd06-8ff85ed297bc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c70a954-196f-4add-aab1-af314cc12195"]
+  }],
+  "urls": ["https://www.homegoods.com/"],
+  "plugins": []
+}
