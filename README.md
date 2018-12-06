@@ -1,1 +1,1 @@
-# Python-Training Nice :)
+# Python Nice :)
